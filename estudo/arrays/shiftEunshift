@@ -1,0 +1,15 @@
+let nomes = ["joe",'jose','joao','maria','andre','marcos'];
+
+//UNSHIFT serve para adicionar algo do inicio do array.
+
+nomes.unshift("maria","isabela");
+console.table(nomes);
+
+
+//SHIFT serve para remover algo do inicio do array.
+//retoorna o valor removido
+
+const primeiro = nomes.shift();
+
+console.table(nomes);
+console.log(`Elemento retornado do comando SHIFT : "${primeiro}"`);
